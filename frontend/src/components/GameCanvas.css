@@ -1,0 +1,17 @@
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.pixi-canvas {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.pixi-canvas canvas {
+  display: block;
+}
+
